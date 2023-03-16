@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "HelveticaNeue-Bold-ttf";
+    src: url("assets/fonts/HelveticaNeue-Bold.ttf");
+}
+
+.html,
+body {
+    background-color: #0A22F4;
+}
+
+.css-grid {
+    margin-top: 50px;
+    margin-left: 120px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    max-width: 20px;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 970px;
+    margin-top: -25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.square-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: 240px;
+    height: 220px;
+    margin-left: 120px;
+}
+
+.lorem {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 95px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width: 230px;
+    height: 110px;
+    margin-left: -2px;
+}
+
+.culpa {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+    width: 385px;
+    height: 110px;
+    margin-left: -144px;
+}
+
+.officia {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-4 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    width: 370px;
+    height: 100px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.molit {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-5 {
+    grid-column: 3 / 3;
+    grid-row: 1 / 2;
+    width: 240px;
+    height: 220px;
+    margin-top: 120px;
+}
+
+.fugiat {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 90px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-6 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    width: 240px;
+    height: 110px;
+    margin-left: 120px;
+    margin-top: -120px;
+}
+
+.execitation {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-7 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+    width: 150px;
+    height: 110px;
+    margin-top: -120px;
+}
+
+.magna {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-8 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+    width: 210px;
+    height: 220px;
+    margin: auto;
+    margin-top: -120px;
+    margin-left: -220px;
+}
+
+.laboris {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 95px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-9 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    width: 400px;
+    height: 100px;
+    margin-left: 120px;
+}
+
+.ullamco {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-10 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 240px;
+    height: 100px;
+}
+
+.consectetur {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-11 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    width: 210px;
+    height: 100px;
+    margin-top: -240px;
+    margin-left: 120px;
+}
+
+.pariatur {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-12 {
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    width: 400px;
+    height: 100px;
+    margin-top: -240px;
+    margin-left: -30px;
+}
+
+.dolore {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.square-13 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    width: 240px;
+    height: 100px;
+    margin-top: -240px;
+    margin-left: 10
+}
+
+.excepteur {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 35px;
+    color: #0A22F4;
+    font-family: Arial, Helvetica, sans-serif;
+}
